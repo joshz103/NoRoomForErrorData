@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2687910788545702549
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3050434691637619503}
+  - component: {fileID: 7174629565651573046}
+  - component: {fileID: 4605308993378599712}
+  m_Layer: 0
+  m_Name: HazardSpawner
+  m_TagString: HazardSpawner
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3050434691637619503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2687910788545702549}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.3929708, y: -1.1307476, z: 10.575516}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7174629565651573046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2687910788545702549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ad128f4f4d03248ab81da2c02f17b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberOfRounds: 20
+  dynamicFrictionPlayer: 0.3
+  staticFrictionPlayer: 0.95
+  hazardFloorMarkers: []
+  floorHazards:
+  - {fileID: 1371534341945111367, guid: ce9391fdacce1874da461ab00cba0db3, type: 3}
+  - {fileID: 7498695376418156088, guid: b02817bfbc00fa044ae608fb8dd1e7e0, type: 3}
+  - {fileID: 8649098794022950063, guid: 25c344d9cdc264d4a834e776133aa19b, type: 3}
+  - {fileID: 8201769647223791519, guid: db98227092ae2ea48885740b15a6c21b, type: 3}
+  - {fileID: 4038379498919729570, guid: 69e431083d449da448c4e2f9a1320197, type: 3}
+  - {fileID: 4108163977045906850, guid: c32629c4cb2b62742b38e58c771b2976, type: 3}
+  - {fileID: 6590998140206231769, guid: dadedd96739f3a043846e073be241a19, type: 3}
+  - {fileID: 2226606572397458182, guid: a505b3e2c2d9a444b92d7df004999d81, type: 3}
+  - {fileID: 5682300839284431426, guid: e4b08eeb01fa7e145a3ec6e11de2d4c6, type: 3}
+  - {fileID: 7288285080655880048, guid: 98e77991dab11984fbc3dbe0537ed580, type: 3}
+  - {fileID: 8717031718470602171, guid: c2b7e358ddc44dc4ca1ad813b4936561, type: 3}
+  spawnedHazards: []
+  camera: {fileID: 0}
+  playerCameraMarker: {fileID: 0}
+  objectCameraOffset: {x: 0, y: 2, z: 0}
+  playerMaterial: {fileID: 13400000, guid: 2aa7984399527e5448e4da1fd7190326, type: 2}
+  mainUI: {fileID: 0}
+  winUI: {fileID: 0}
+  winRoundNum: {fileID: 0}
+  roundNumber: 0
+  roundText: {fileID: 0}
+  deathRoundText: {fileID: 0}
+  newObstacleTextContainer: {fileID: 0}
+  musicMachine: {fileID: 0}
+--- !u!114 &4605308993378599712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2687910788545702549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 066797b936a856c46b925739ba33571d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  deathscreenfx: {fileID: 0}

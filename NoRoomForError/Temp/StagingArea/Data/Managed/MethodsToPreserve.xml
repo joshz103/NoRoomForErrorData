@@ -1,0 +1,67 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="Pause">
+			<method name="CloseOptions"/>
+			<method name="CloseOptions"/>
+			<method name="CloseOptions"/>
+			<method name="CloseOptions"/>
+			<method name="CloseOptions"/>
+			<method name="CloseOptions"/>
+			<method name="OpenOptions"/>
+			<method name="OpenOptions"/>
+			<method name="OpenOptions"/>
+			<method name="OpenOptions"/>
+			<method name="OpenOptions"/>
+			<method name="OpenOptions"/>
+			<method name="PauseRestartRound"/>
+			<method name="PauseRestartRound"/>
+			<method name="PauseRestartRound"/>
+			<method name="PauseRestartRound"/>
+			<method name="PauseRestartRound"/>
+			<method name="PauseRestartRound"/>
+			<method name="PauseReturnToMainMenu"/>
+			<method name="PauseReturnToMainMenu"/>
+			<method name="PauseReturnToMainMenu"/>
+			<method name="PauseReturnToMainMenu"/>
+			<method name="PauseReturnToMainMenu"/>
+			<method name="PauseReturnToMainMenu"/>
+		</type>
+		<type fullname="Settings">
+			<method name="ChangeMasterVolume"/>
+			<method name="ChangeMasterVolume"/>
+			<method name="ChangeMasterVolume"/>
+			<method name="ChangeMasterVolume"/>
+			<method name="ChangeMasterVolume"/>
+			<method name="ChangeMasterVolume"/>
+			<method name="ChangeMusicVolume"/>
+			<method name="ChangeMusicVolume"/>
+			<method name="ChangeMusicVolume"/>
+			<method name="ChangeMusicVolume"/>
+			<method name="ChangeMusicVolume"/>
+			<method name="ChangeMusicVolume"/>
+		</type>
+	</assembly>
+	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField">
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerPanel">
+			<method name="OnScrollbarClicked"/>
+			<method name="OnScrollbarClicked"/>
+			<method name="ResetDebugManager"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerUIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+	</assembly>
+</linker>
